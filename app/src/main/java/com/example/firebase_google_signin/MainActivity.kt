@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             val signInClient = GoogleSignIn.getClient(this,options)
             signInClient.signInIntent.also{
                 startActivityForResult(it, REQUEST_SIGN_IN_CODE)
-                /hajahahahaha
+
             }
         }
     }
